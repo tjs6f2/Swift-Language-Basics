@@ -32,7 +32,7 @@ else
 }
 
 
-if heartRate >= 40 && heartRate =< 80
+if heartRate > 40 && heartRate < 80
 {
     print("Heart rate is normal.")
 }
